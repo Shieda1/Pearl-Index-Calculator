@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pearl Index Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- radio -->
+  <input type="radio" id="pearlindexRadio" name="variables" checked>
+  <label for="pearlindexRadio">Pearl index</label>
+
+  <input type="radio" id="noofwomeninthestudyRadio" name="variables">
+  <label for="noofwomeninthestudyRadio">No. of women in the study</label>
+
+  <input type="radio" id="studydurationRadio" name="variables">
+  <label for="studydurationRadio">Study duration</label>
+
+  <input type="radio" id="noofpregnanciesRadio" name="variables">
+  <label for="noofpregnanciesRadio">No. of pregnancies</label><br><br>
+  <!-- end radio -->
+  
+  <label for="v1" id="variable1">No. of women in the study</label>
+  <input type="number" id="v1"><br><br>
+  
+  <label for="v2" id="variable2">Study duration</label>
+  <input type="number" id="v2"><br><br>
+  
+  <label for="v3" id="variable3">No. of pregnancies</label>
+  <input type="number" id="v3"><br><br>
+
+  <button id="btn">compute</button>
+
+  <p id="result"></p>
+  <script src="app.js"></script>
+</body>
+</html>
